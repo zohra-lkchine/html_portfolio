@@ -1,0 +1,101 @@
+/* #96C291 */
+/* #FFDBAA */
+/* #FFB7B7 */
+/* #F4EEEE */
+/* #91C8E4 */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../assets/papier.jpg");
+
+}
+nav {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navlinks {
+    margin-left: 720px;
+}
+
+.navlinks li, nav ul { 
+    display: inline;
+}
+
+.navlinks li { 
+    padding-left: 20px;
+
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+nav img {
+    width: 160px;
+}
+.portfolio-title {
+    text-align: center;
+    font-size: 45px;
+    border: 1px solid cornflowerblue;
+    text-transform: uppercase;
+}
+
+table {
+    color: royalblue;
+}
+
+td {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+video {
+    border: 5px solid #22923163;
+}
+
+.contact-section form {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    background-color: lightcoral;
+     width: 416px; height: 200.9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    font-weight: bold;
+    margin-top: 5px;
+}
+input{
+    width: 270px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+button {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: darkslategray;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+.footer-section {
+    text-align: right;
+    color: #000;
+    font-weight: bold;
+}

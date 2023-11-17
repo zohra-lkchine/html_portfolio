@@ -2,12 +2,18 @@
 <html>
     <head>
         <title>ZOHRA LKCHINE | PORTFOLIO</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <!-- Link for fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Header Section -->
     <header>
-        <nav>
-            <ul>
+        <nav >
+            <img src="assets/logo.png" alt="logo">
+            <ul class="navlinks" >
                 <li><a href="#home">Home </a></li>
                 <li><a href="About">About</a></li>
                 <li><a href="#Work">Work</a></li>
@@ -17,12 +23,12 @@
         </nav>
     </header>
         <!-- End Header Section -->
-        <!-- About Section -->
-    <section>
-        <h1>
+        <h1 class="portfolio-title">
             Welcome to My portfolio
         </h1>
-        <h2>
+        <!-- About Section -->
+    <section class="about-section">
+        <h2 class="about-subTitle">
             🔹About Me
         </h2>
        <img src="assets/avatar.png"alt="width250">
@@ -32,21 +38,21 @@
     </section>
         <!-- End About Section -->
          <!-- Work Section -->
-    <section>
-        <h2>🔹Work</h2>
+    <section class="work-section">
+        <h2  class="about-subTitle">🔹Work</h2>
         <!-- Project 1 -->
-        <div>
+        <div class="project1-div">
              <h3> E-commerce site</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec congue elit. Cras volutpat enim felis, eget imperdiet ligula faucibus et. Nulla egestas felis nec efficitur scelerisque. Mauris nisl quam, lacinia nec turpis ut, ultricies sodales neque.</p>
         </div>
         <!-- Project 2 -->
-        <div>
+        <div class="project2-div">
             <img src="assets/work2.jpg" alt="Landing_page_1" width="450" />
             <h3> Travel tackle </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec congue elit. Cras volutpat enim felis, eget imperdiet ligula faucibus et. Nulla egestas felis nec efficitur scelerisque. Mauris nisl quam, lacinia nec turpis ut, ultricies sodales neque.</p>
         </div>
         <!-- Project 3 -->
-        <div>
+        <div class="project3-div">
             <img src="assets/work3.jpg" alt="Landing_page_1" width="450" />
             <h3>E-WALLLET</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec congue elit. Cras volutpat enim felis, eget imperdiet ligula faucibus et. Nulla egestas felis nec efficitur scelerisque. Mauris nisl quam, lacinia nec turpis ut, ultricies sodales neque.</p>
@@ -54,8 +60,8 @@
     </section>
          <!-- End Work Section -->
          <!-- Resume section -->
-    <section>
-        <h2>
+    <section class="work-section">
+        <h2 class="resume-subTitle">
             🔹Resume
         </h2>
         <h3>
@@ -89,8 +95,8 @@
          <!-- End Resume section -->
          
          <!--  Contact section -->
-    <section>
-        <h2>🔹contact me</h2>
+    <section class="contact-section">
+        <h2 class="contact-subTitle">🔹contact me</h2>
         <form>
             <label for="">Name :</label>
             <input type="text" placeholder="Enter your name">
@@ -104,7 +110,7 @@
     </section>  
          <!--  END Contact section -->
          <!-- Footer -->
-         <footer> 
+         <footer class="footer-section"> 
             <h5>Zohra Lekchine</h5>
             <p>&copy; 2023 Copyright.</p>
          </footer>
